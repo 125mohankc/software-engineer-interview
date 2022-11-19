@@ -2,15 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <LangVersion>latestmajor</LangVersion>
-    <RootNamespace>Zip.InstallmentsService</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Zip.InstallmentModel\Zip.InstallmentsModel.csproj" />
     <ProjectReference Include="..\Zip.IRepository\Zip.InstallmentsIRepository.csproj" />
-    <ProjectReference Include="..\Zip.IServices\Zip.InstallmentsIService.csproj" />
-    <ProjectReference Include="..\Zip.Repository\Zip.InstallmentRepository.csproj" />
   </ItemGroup>
 
 </Project>

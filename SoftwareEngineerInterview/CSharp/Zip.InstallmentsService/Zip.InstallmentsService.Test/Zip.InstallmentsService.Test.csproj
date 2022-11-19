@@ -20,6 +20,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Zip.InstallmentsService\Zip.InstallmentsService.csproj" />
+    <ProjectReference Include="..\Zip.IRepository\Zip.InstallmentsIRepository.csproj" />
+    <ProjectReference Include="..\Zip.IServices\Zip.InstallmentsIService.csproj" />
+    <ProjectReference Include="..\Zip.Repository\Zip.InstallmentRepository.csproj" />
   </ItemGroup>
 
 </Project>

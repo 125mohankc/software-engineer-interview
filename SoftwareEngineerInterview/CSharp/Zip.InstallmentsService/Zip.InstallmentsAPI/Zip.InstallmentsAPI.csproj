@@ -1,13 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <LangVersion>latestmajor</LangVersion>
-    <RootNamespace>Zip.InstallmentsService</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Zip.InstallmentModel\Zip.InstallmentsModel.csproj" />
+    <ProjectReference Include="..\Zip.InstallmentsService\Zip.InstallmentsService.csproj" />
     <ProjectReference Include="..\Zip.IRepository\Zip.InstallmentsIRepository.csproj" />
     <ProjectReference Include="..\Zip.IServices\Zip.InstallmentsIService.csproj" />
     <ProjectReference Include="..\Zip.Repository\Zip.InstallmentRepository.csproj" />
